@@ -24,3 +24,18 @@
     transform: rotate(224deg);
   } */
 
+  .Keypad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .CreateTodoButton{
+    width: 80px;
+    height: 60px;
+  }
+  #nui{
+    height: 50px;
+    width: 231px;
+  }

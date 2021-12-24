@@ -18,53 +18,57 @@ function CreateTodoButton() {
       autoComplete="off"
       onChange={() => false}
       />
+      </div>
 
-    </div>
-
-    <div className='Button'>
-
+      <div className='Keypad'>
+      <div className='Button'>
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         1
       </button>
-    
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         2
       </button>
-
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         3
       </button>
-
+      </div>
+      
+      <div className='Button'>
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         4
       </button>
-
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         5
       </button>
-
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         6
       </button>
+      </div>
 
+      <div className='Button'>
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         7
       </button>
-
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         8
       </button>
-
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         9
-      </button>
+      </button>      
+      </div>
 
+      <div className='Button'>
+      <button className="CreateTodoButton" type='button' onClick={() => setPrueba(prueba.slice(0, -1))}>
+        Borrar
+      </button>
       <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
         0
       </button>
-
-    </div>
-    
+      <button className="CreateTodoButton" type='button' onClick={() => setPrueba(prueba.slice(0, -1))}>
+        Enviar
+      </button>
+      </div>
+      </div>
     </Fragment>
     
     
