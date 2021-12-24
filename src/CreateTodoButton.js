@@ -1,9 +1,73 @@
-import React from 'react';
-import './CreateButton.css';
+import React, { Fragment, useState } from 'react'
+import './CreateTodoButton.css';
 
-function CreateTodoButton(props) {
+
+function CreateTodoButton() {
+
+  const [prueba, setPrueba] = useState("")
+  
   return (
-    <button className="CreateTodoButton">+</button>
+
+    <Fragment>
+
+      <div className='Inputt'>
+      <input
+      id="nui"
+      type="text"
+      value={prueba}
+      autoComplete="off"
+      onChange={() => false}
+      />
+
+    </div>
+
+    <div className='Button'>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        1
+      </button>
+    
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        2
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        3
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        4
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        5
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        6
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        7
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        8
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        9
+      </button>
+
+      <button className="CreateTodoButton" type='button' onClick={(e) => setPrueba(`${prueba}${e.target.innerHTML}`)}>
+        0
+      </button>
+
+    </div>
+    
+    </Fragment>
+    
+    
   );
 }
 
