@@ -32,10 +32,37 @@
     text-align: center;
   }
   .CreateTodoButton{
-    width: 80px;
-    height: 60px;
+    width: 94px;
+    height: 62px;
+    margin: 6px;
+    font-size: 19px;
+    border-radius: 12px;
+    cursor: pointer;
   }
+
   #nui{
     height: 50px;
-    width: 231px;
+    width: 297px;
+    margin: 6px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+  }
+  .CreateTodoButton:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+    border: none;
+  }
+  .tittle-1{
+      align-items: center;
+      font-size: 43px;
+  }
+  .Inputt{
+    display: flex;
+    justify-content: center;
+  }
+  .Tittle{
+    display: flex;
+    justify-content: center;
   }

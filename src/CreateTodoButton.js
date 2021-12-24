@@ -10,6 +10,10 @@ function CreateTodoButton() {
 
     <Fragment>
 
+      <div className='Tittle'>
+        <h1 className='tittle-1'>Ingrese su cedula</h1>
+      </div>
+
       <div className='Inputt'>
       <input
       id="nui"
@@ -65,7 +69,7 @@ function CreateTodoButton() {
         0
       </button>
       <button className="CreateTodoButton" type='button' onClick={() => setPrueba(prueba.slice(0, -1))}>
-        Enviar
+        Continuar
       </button>
       </div>
       </div>
