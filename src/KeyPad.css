@@ -1,28 +1,3 @@
-/* .CreateTodoButton {
-    background-color: #000000;
-    box-shadow: 0px 5px 25px rgba(51, 55, 54, 0.522);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 50px;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    font-weight: bold;
-    color: #FAFAFA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-    width: 64px;
-  
-    transform: rotate(0);
-    transition: .3s ease;
-  } */
-  
-  /* .CreateTodoButton:hover {
-    transform: rotate(224deg);
-  } */
 
   .Keypad{
     display: flex;
@@ -31,7 +6,7 @@
     align-content: center;
     text-align: center;
   }
-  .CreateTodoButton{
+  .KeyPad_Button{
     width: 94px;
     height: 62px;
     margin: 6px;
@@ -49,7 +24,7 @@
     font-size: 20px;
     outline: none;
   }
-  .CreateTodoButton:hover{
+  .KeyPad_Button:hover{
     box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
     transition: all 0.7s linear;
     border: none;
