@@ -22,3 +22,11 @@ code {
   width: 430px;
   height: 505px;
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/Fonts/Roboto/Roboto-Medium.ttf);
+}
+body{
+  font-family: 'Roboto';
+}
